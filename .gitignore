@@ -1,0 +1,27 @@
+# Игнорировать временные файлы редакторов
+*.swp
+*.tmp
+*.bak
+*.sublime-workspace
+
+# Игнорировать папку сборки
+build/
+out/
+dist/
+
+# Игнорировать бинарные файлы
+*.exe
+*.out
+*.elf
+*.hex
+*.bin
+
+# Игнорировать зависимости
+node_modules/
+__pycache__/
+*.pyc
+
+# Игнорировать настройки IDE
+.vscode/
+.idea/
+.DS_Store
